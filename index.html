@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish Caffe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 10px;
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            background: linear-gradient(135deg, #FFC0CB, #B0E0E6, #FFD700);
+        }
+        .header {
+            background-color: #4de1c6;
+            padding: 20px;
+            font-size: 40px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: bold;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+        .aside {
+            background-color: #ff4661;
+            padding: 20px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        .address {
+            font-size: 20px;
+            font-weight: normal;
+            color: #ffffff;
+        }
+        .article {
+            background-color: #FFD700;
+            padding: 20px;
+            display: grid;
+            grid-template-rows: auto 1fr;
+            gap: 10px;
+            border-radius: 10px;
+        }
+        .images {
+            display: flex;
+            justify-content: space-around;
+            font-size: 60px;
+        }
+        .image-box {
+            background-color: #E0FFFF;
+            padding: 50px;
+            width: 120px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            background-color: #56d9e3;
+            padding: 20px;
+            color: white;
+            font-style: italic;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .cute-section {
+            background-color: #AFEEEE;
+            padding: 30px;
+            border-radius: 15px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            display: grid;
+            gap: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .cute-emojis {
+            font-size: 50px;
+        }
+        .menu-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .menu-table th, .menu-table td {
+            padding: 15px;
+            border: 2px solid #5b7fd8;
+        }
+        .menu-table th {
+            background-color: #449b78;
+            color: white;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">WISH CAFFE ✨</div>
+    <div class="container">
+        <div class="aside"><span class="address"></span></div>
+        <div class="article">
+            <div></div>
+            <div class="images">
+                <div class="image-box"></div>
+                <div class="image-box"></div>
+                <div class="image-box"></div>
+            </div>
+        </div>
+    </div>
+    <div class="cute-section">
+        <div class="cute-emojis"></div>
+    </div>
+    <table class="menu-table">
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <div class="footer"></div>
+</body>
+</html>
